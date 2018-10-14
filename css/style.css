@@ -1,0 +1,71 @@
+ body {
+  font-family: "Trebuchet MS";
+  font-size: 1.2em;
+  background-color: #ffb6c1;
+background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%23ffffff' fill-opacity='0.34' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+main {
+  width: 300px;
+  padding: 10px;
+  margin: 10% auto;
+  height: 420px;
+  border: 3px solid black;
+  border-radius: 15px;
+  box-shadow: 10px 10px rgba(0,0,0,0.4) ;
+  background-color: white;
+}
+
+.screen {
+  height: 110px;
+  width: 95%;
+  margin: 15px auto;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: #E3F2FD;
+  box-shadow: 2px 2px none;
+}
+
+.screen-content {
+  positon: absolute;
+  bottom: 0;
+  right: 0;
+  text-align:right;
+  padding: 0 10px;
+  font-size: 2em;
+  font-family: 'Courier New';
+  text-overflow: ellipsis; /* ...*/
+  overflow: hidden; /* Als het buiten de box loopt, stopt het */
+}
+
+table {
+  margin: 15px 5px;
+  width:97%;
+}
+
+td {
+  height: 40px;
+  width: 20%;
+  padding: 4px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #FAFAFA;
+  text-align: center;
+  cursor: pointer;
+}
+
+td:hover{
+  background-color:#E57373;  
+}
+
+.number {
+  background-color:#FBE9E7;
+}
+
+.clear, .delete {
+  background-color: #EF9A9A;
+}
+
+.crossed {
+  color: red;
+}
